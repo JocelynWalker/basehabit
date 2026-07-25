@@ -1,0 +1,35 @@
+{
+  "name": "basehabit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test:wallets": "tsx scripts/test-wallet-providers.ts"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.62.7",
+    "lucide-react": "^0.468.0",
+    "next": "^15.4.0",
+    "ox": "^1.0.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "viem": "2.55.8",
+    "wagmi": "^2.15.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.31.0",
+    "eslint-config-next": "^15.4.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.20.5",
+    "typescript": "^5.8.3"
+  }
+}
